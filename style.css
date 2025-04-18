@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    margin:0 50px ;
+        
+}
+.navsum{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0 40px;
+    
+}
+.navsdois{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: rgb(254, 254, 254);
+  
+    gap: 10px;
+    padding: 10px;
+}
+.logomicro{
+    border-right: 1px solid black;
+}
+.logoxbox{
+ margin: 0;    
+}
+.navtoda{
+    width: 100%;
+    display: flex;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
