@@ -1,104 +1,143 @@
+.sectionheader {}
 
-.headertoda {
-    /*toda a div header*/
-    background-color: rgb(255, 255, 255);
-   
+.divheadertoda {
+    display: flex;
+    margin: 40px 0 0 70px;
+    
+
+
+
 }
 
-.primeiralinhaheader {
-    display: inline-flex;
+.imagemlogodigital {
+    justify-content: start;
+    align-self: center;
+    margin: 0;
+
+}
+
+.textodigitalstore {
+    display: flex;
     align-items: center;
-    padding: 10px 0 0 67px;
+    color: rgb(201 32 113);
+    font-weight: 600;
+    font-size: xx-large;
+    margin-top: 19px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+
 }
 
-.logodigital {
-    /*logo digital college*/
-    margin: 6px 0 0 0;
+.linkdigital {}
+
+.divpesquisar {
+
+    display: flex;
+    align-items: center;
+    opacity: 55%;
 
 }
 
-.campodetexto {
-    width: 510px;
+.campopesquisar {
+
+    width: 559px;
     height: 60px;
     top: 63px;
+    left: 361px;
     border-radius: 8px 0 0 8px;
-    margin-left: 5px;
     border: none;
-    background-color: #f1f4f8;
+    background-color: #eae9e9;
 }
 
 .imagemlupa {
-    background-color: #f1f4f8;
-    margin: 20px 0 20px 0;
+    align-self: center;
+    background-color: #eae9e9;
+    border-radius: 8px;
     padding: 17.5px;
     border-radius: 0 8px 8px 0;
+    opacity: 50%;
+    margin: 0 20px 0 0;
 
 }
-.botaocadastrar:hover{
-    color: rgb(119, 112, 112);
+
+.linkcadastro {
+
+
+    align-content: center;
+    margin: 0 30px 0 0;
+
 }
-.botaocadastrar {
-    margin: 0 0 0 50px;
-    width: 102px;
-   
-    left: 968px;
-    align-items: center;
-    color: rgb(119, 112, 112);
-    font-family: sans-serif;
+
+.divbotaoentrar {
+
+
+}
+
+.botaoentrar {
+    display: flex;  
     
-
-}
-
-.imagementrar {
-    margin-top: 10px;
-    padding: 10px;
-    
-
 }
 
 .imagemcarrinho {
-    background-color: rgb(255, 255, 255);
-    margin-left: 30px;
+    align-content: center;
+    margin: 20px;
 
 }
-.linkhome{
-    color: #C92071;
-    margin: 0 0 0 50px;
-    font-family: inter;
-    font-size: larger;
-    
 
-
-}
-.linkhome:hover{
-   color: #C92071;
-}
-.linka:hover{
-    color:#474747
-}
-.linka{
-    color: #474747;
-    margin: 30px 0 0 50px;
-    font-size: larger;
-
-    text-decoration: none;
-    font-family: inter;
-    
-}
-.links{
-    margin-top: 40px;
+.finalheader {
+   align-content:center ;
     
 }
 
+.divlinks {
+    display: flex;
+    margin: 20px;
 
-*{
+}
+
+.links {
+   
+}
+
+.sectionqueima{
+    display: flex;
+}
+
+.divqueima {
+ display: flex;  
+ flex-direction: column;
+ width: 50%;
+ 
+}
+
+.melhoresofertas {}
+
+.melhores {
+    display: flex;
+    color: rgb(246 170 28);
+    line-height: 24px;
     margin: 0;
-    padding: 0;
+    background-color: aqua;
+
 }
 
+.queima {
+    display: flex;
+    align-items: center;
+    background-color: brown;
+    padding-right: 20%;
+    margin-top: 60px;
 
-a{
-    text-decoration: none;
-    color: black;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.consequat {}
+
+.sapato {
+    display: flex;
+    justify-content: end;
+    
+
+
 }
